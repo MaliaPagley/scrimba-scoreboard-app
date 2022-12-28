@@ -1,8 +1,40 @@
 body {
+    background-color: #2C3333;
     margin: 0;
+    font-family: 'Orbitron', sans-serif;
 }
 .container {
     display: flex;
     justify-content: space-around;
+    
 
+}
+
+#home, #guest{
+    font-size: 50px;
+   
+    padding: 2px 20px;
+    margin: 20px 50px;
+}
+#home {
+    color: #5D8BF4;
+   width: 350px;
+}
+#guest {
+    color: #FF5677;
+    width: 350px;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    font-size: 200px;
+    border: 5px solid white;
+    padding: 15px 10px;
+}
+
+button {
+    width: 100px;
+
+    margin: auto;
 }
